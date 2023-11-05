@@ -81,6 +81,14 @@ body{
 
 .page-title{
     text-align: center;
+    letter-spacing: 1.5vw;
+    font-size: 300%;
+}
+
+.page-subtitle{
+    text-align: center;
+    letter-spacing: 0.8vw;
+    font-size: 150%;
 }
 
 .welcome-image{
@@ -91,4 +99,9 @@ body{
     height: 75%;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.image-legend{
+    font-size: 12px;
+    text-align: center;
 }
