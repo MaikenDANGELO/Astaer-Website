@@ -82,13 +82,13 @@ body{
 .page-title{
     text-align: center;
     letter-spacing: 1.5vw;
-    font-size: 300%;
+    font-size: 175%;
 }
 
 .page-subtitle{
     text-align: center;
     letter-spacing: 0.8vw;
-    font-size: 150%;
+    font-size: 87.5%;
 }
 
 .welcome-image{
@@ -104,4 +104,94 @@ body{
 .image-legend{
     font-size: 12px;
     text-align: center;
+}
+
+.page-header{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.head-article{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.head-article-title{
+    font-size: 150%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 15px;
+    border: 2px solid black;
+    height: min-content;
+}
+
+.card-image{
+    align-self: center;
+    margin-top: 5%;
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: 0.2vw;
+}
+
+.card-text{
+    margin-left: 5%;
+    margin-bottom: 10%;
+    text-align: left;
+    font-size: 100%;
+}
+
+.link-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.link-card-title{
+    text-align: center;
+    font-size: 250%;
+    letter-spacing: 0.6vw;
+}
+
+.link-card-body{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.link-card-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+}
+
+.link-card-link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    background-color: rgb(238, 238, 238);
+    margin: 0.5%;
+}
+
+.link-card-link:hover{
+    background-color: rgb(217, 216, 216);
+}
+
+.empty-separator{
+    height: 5vh;
 }
