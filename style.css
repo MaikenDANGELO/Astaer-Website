@@ -181,6 +181,10 @@ body{
     width: 30%;
 }
 
+.link-card-section-title{
+    text-align: center;
+}
+
 .link-card-link{
     display: block;
     text-decoration: none;
