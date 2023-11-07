@@ -1,5 +1,8 @@
 body{
     font-family: Helvetica, sans-serif;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar{
@@ -144,8 +147,7 @@ body{
 
 .card-image{
     align-self: center;
-    margin-top: 5%;
-    width: 98%;
+    width: 100%;
     border: 1px solid black;
     border-radius: 15px;
 }
