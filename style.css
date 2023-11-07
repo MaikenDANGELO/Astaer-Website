@@ -149,10 +149,16 @@ h3,h4{
     margin-bottom: 2%;
 }
 
-.head-article{
+.head-article-container{
     display: flex;
     flex-direction: column;
     width: 63%;
+    gap: 3%;
+}
+
+.head-article{
+    display: flex;
+    flex-direction: column;
     padding: 2%;
     background-color: rgba(255,235,215,0.6);
     border: solid #463714 2px;
