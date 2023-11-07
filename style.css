@@ -32,6 +32,7 @@ body{
 .dropdown{
     position: relative;
     display: inline-block;
+    transition: all linear 0.1s;
 }
 
 .dropdown-content{
@@ -40,6 +41,7 @@ body{
     background-color: rgb(242, 242, 242);
     min-width: 160px;
     z-index: 1;
+    transition: all linear 0.1s;
 }
 
 .dropdown-content a {
@@ -51,6 +53,7 @@ body{
 
 .dropdown-content a:hover {
     background-color: rgb(228, 227, 227);
+    transition: all linear 0.1s;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -59,10 +62,12 @@ body{
     background-color: rgb(242, 242, 242);
     border: none;
     padding: 1%;
+    transition: all linear 0.1s;
 }
 
 .dropdown:hover .dropbtn{
     background-color: rgb(228, 227, 227);
+    transition: all linear 0.1s;
 }
 
 .nav-link{
@@ -73,6 +78,7 @@ body{
 
 .nav-link:hover{
     background-color: rgb(228, 227, 227);
+    transition: all linear 0.1s;
 }
 
 .main-body{
@@ -118,7 +124,7 @@ body{
 .head-article{
     display: flex;
     flex-direction: column;
-    width: 68%;
+    width: 63%;
 }
 
 .head-article-title{
@@ -132,12 +138,13 @@ body{
 
 .paragraph-link:hover{
     color: blue;
+    transition: all linear 0.1s;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
     border-radius: 15px;
     margin-top: 3%;
     margin-left: 2%;
@@ -207,8 +214,25 @@ body{
 
 .link-card-link:hover{
     background-color: rgb(217, 216, 216);
+    transition: all linear 0.1s;
 }
 
 .empty-separator{
     height: 5vh;
+}
+
+@media (max-width: 701px){
+    .main-body{
+        margin-top: 20%;
+    }
+    .page-header{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .card{
+        width: 80%;
+    }
+    .head-article{
+        width: 100%;
+    }
 }
