@@ -122,6 +122,14 @@ body{
     font-size: 150%;
 }
 
+.paragraph-link{
+    text-decoration: none;
+}
+
+.paragraph-link:hover{
+    text-decoration: underline;
+}
+
 .card{
     display: flex;
     flex-direction: column;
