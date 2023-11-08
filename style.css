@@ -146,7 +146,6 @@ h3,h4{
     margin-top: 2%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 2%;
 }
 
 .head-article-container{
@@ -226,6 +225,7 @@ h3,h4{
     flex-direction: column;
     border: 2px solid #463714;
     border-radius: 10px;
+    margin-top: 3%;
     background-color: rgba(255,235,215,0.6);
 }
 
@@ -275,14 +275,23 @@ h3,h4{
 
 @media (max-width: 701px){
     .main-body{
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .page-header{
         flex-direction: column-reverse;
         align-items: center;
+        width: 100%;
     }
     .card{
         width: 80%;
+    }
+    .link-card{
+        margin-top: 5%;
+        width: 100%;
+    }
+    .head-article-container{
+        margin-top: 5%;
+        width: 100%;
     }
     .head-article{
         width: 100%;
