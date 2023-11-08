@@ -220,6 +220,11 @@ h3,h4,h5{
     font-size: 100%;
 }
 
+.table{
+    display: flex;
+    flex-direction: row;
+}
+
 .link-card{
     display: flex;
     flex-direction: column;
@@ -250,6 +255,10 @@ h3,h4,h5{
 }
 
 .link-card-section-title{
+    text-align: center;
+}
+
+.link-card-text{
     text-align: center;
 }
 
