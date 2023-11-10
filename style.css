@@ -107,7 +107,7 @@ body{
 }
 
 .page-title{
-    margin-top: 2%;
+    margin-top: 3%;
     text-align: center;
     letter-spacing: 1.2vw;
     font-size: 175%;
@@ -143,7 +143,7 @@ h3,h4,h5{
 }
 
 .page-header{
-    margin-top: 2%;
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
 }
@@ -169,7 +169,7 @@ h3,h4,h5{
 }
 
 .page-body-article{
-    margin-bottom: 2%;
+    margin-top: 3%;
     background-color: rgba(255,235,215,0.6);
     border: solid #463714 2px;
     border-radius: 15px;
@@ -261,7 +261,7 @@ tr:nth-child(odd):hover{
 .link-card-body{
     display: flex;
     flex-direction: row;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .link-card-section{
