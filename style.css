@@ -27,6 +27,7 @@ body{
     color: black;
     border-radius: 5px;
     padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .navbar button{
@@ -94,6 +95,7 @@ body{
 
 .nav-logo{
     width: 2%;
+    margin-right: 2%;
 }
 
 .nav-logo-image:hover{
