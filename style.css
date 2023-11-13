@@ -145,7 +145,14 @@ strong{
     margin-right: auto;
     width: 75%;
     height: 75%;
+    margin-top: 2%;
     border: 1px solid #463714;
+    border-radius: 5px;
+}
+
+.image-container{
+    background-color: rgba(255,235,215,0.6);
+    border: solid #463714 2px;
     border-radius: 5px;
 }
 
